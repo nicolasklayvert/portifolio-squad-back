@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Turma 140 · Transforme-se</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__row">
+        <a href="#topo" class="logo"
+          ><span class="logo__tm">Tm</span>
+          <span class="logo__num">140</span></a
+        >
+
+        <nav class="nav">
+          <a href="#quem-somos">Quem somos</a>
+          <a href="#turma">Turma</a>
+          <a href="#docente">Docente</a>
+          <a href="#curso">Curso</a>
+          <a href="#grade">Grade</a>
+          <a href="#estudantes">Estudantes</a>
+        </nav>
+
+        <a href="#contato" class="btn btn--outline">contato →</a>
+      </div>
+    </header>
+
+    <section class="hero" id="topo">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">
+            <span class="eyebrow__dot"></span> transforme-se // turma de
+            desenvolvimento front-end
+          </p>
+
+          <h1 class="hero__title">turma</h1>
+          <p class="hero__number">140</p>
+
+          <p class="hero__desc">A melhor turma do Senac de TODOS os TEMPOS.</p>
+
+          <div class="hero__actions">
+            <a href="#estudantes" class="btn btn--gradient">Ver estudantes</a>
+            <a href="#quem-somos" class="btn btn--ghost">Quem somos</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="photo-grid">
+            <div
+              class="photo-grid__item photo-grid__item--wide"
+              style="
+                background-image: url(&quot;img/foto-geral-lindo.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="photo-grid__item"
+              style="
+                background-image: url(&quot;img/foto-geral-palco.jpg&quot;);
+              "
+            ></div>
+            <div
+              class="photo-grid__item"
+              style="
+                background-image: url(&quot;img/foto-geral-recebimento.jpg&quot;);
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats">
+          <div class="stats__item">
+            <span class="stats__num">35</span>
+            <span class="stats__label">alunos(as)</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__num">05</span>
+            <span class="stats__label">projetos</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__num">04</span>
+            <span class="stats__label">meses de turma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quem-somos">
+      <div class="container section__grid">
+        <div>
+          <p class="section__eyebrow">01 / quem somos?</p>
+          <h2 class="section__title">A equipe back-end</h2>
+
+          <p class="section__text">
+            A equipe de back-end cuida da estrutura que faz a aplicação
+            funcionar: cria APIs, organiza regras de negócio, conecta com bancos
+            de dados e garante que tudo rode de forma segura e eficiente.
+          </p>
+          <p class="section__text">
+            No nosso grupo, aprendemos a transformar ideias em soluções reais,
+            trabalhando com lógica, integração e performance para entregar
+            experiências completas para o usuário.
+          </p>
+        </div>
+
+        <pre
+          class="code-card"
+        ><code><span class="code-kw">const</span> equipe = {
+  nome:   <span class="code-str">"back-end"</span>,
+  area:   <span class="code-str">"front-end web"</span>,
+  turma:  <span class="code-str">"140"</span>,
+  missao: <span class="code-str">"Mostrar a melhor turma do Senac"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="turma">
+      <div class="container">
+        <p class="section__eyebrow">02 / qual a turma?</p>
+        <h2 class="section__title">Turma 140</h2>
+
+        <div class="info-grid">
+          <div class="info-card">
+            <span class="info-card__label">programa</span>
+            <span class="info-card__value">Trasnforme-se</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card__label">turma</span>
+            <span class="info-card__value">140</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card__label">modalidade</span>
+            <span class="info-card__value">Presencial</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card__label">duração</span>
+            <span class="info-card__value">6 meses</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card__label">início</span>
+            <span class="info-card__value">Abr / 2026</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card__label">Turno</span>
+            <span class="info-card__value">Noite</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="docente">
+      <div class="container">
+        <p class="section__eyebrow">03 / qual o docente?</p>
+        <h2 class="section__title">Nossos professores</h2>
+
+        <div class="teacher-list">
+          <article class="teacher-card">
+            <div
+              class="teacher-card__avatar"
+              style="background-image: url(&quot;img/carrasco-icon.jpg&quot;)"
+            ></div>
+            <div class="teacher-card__body">
+              <h3 class="teacher-card__name">Erick Carrasco</h3>
+              <p class="teacher-card__role">
+                Professor de Front-end • Programa Transforme-se
+              </p>
+              <p class="teacher-card__bio">
+                Desenvolvedor front-end com experiência em formação de novos
+                talentos e acompanhamento de turmas.
+              </p>
+              <div class="teacher-card__links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">E-mail</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="curso">
+      <div class="container section__grid">
+        <div>
+          <p class="section__eyebrow">04 / qual é o curso?</p>
+          <h2 class="section__title">Desenvolvimento Front-end Web</h2>
+
+          <p class="section__text">
+            Olha aqui a gente fala sobre o curso, fala sobre a turma e fala
+            também sobre o transforme-se, não tenho ideia do que escrever agora
+            kkkkkkkkkkkk.
+          </p>
+          <p class="section__text">
+            Este portfólio reúne a Turma 140: quem somos, o que estudamos e o
+            que já construímos. É a prova de que aprender a programar pode ser
+            leve, coletivo e cheio de gente boa.
+          </p>
+          <p class="section__text">
+            Vou adicionar mais coisas pra ficar do tamnho do card kkkkkkkkkkkk
+          </p>
+        </div>
+
+        <div class="detail-list">
+          <div class="detail-row">
+            <span>carga horária</span>
+            <strong class="detail-row__pink">480h</strong>
+          </div>
+          <div class="detail-row">
+            <span>modalidade</span>
+            <strong></strong>
+          </div>
+          <div class="detail-row">
+            <span>certificação</span>
+            <strong class="detail-row__mono">sim</strong>
+          </div>
+          <div class="detail-row">
+            <span>pré-requisitos</span>
+            <strong class="detail-row__mono">nenhum</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="grade">
+      <div class="container">
+        <p class="section__eyebrow">05 / grade curricular?</p>
+        <h2 class="section__title">O que a turma estuda</h2>
+
+        <div class="curriculum">
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 1</span>
+            <div class="curriculum__text">
+              <strong
+                >Operar sistemas operacionais e aplicativos de
+                escritório</strong
+              >
+              <span>36h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">36h</span>
+          </div>
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 2</span>
+            <div class="curriculum__text">
+              <strong>Desenvolver sistemas de informação</strong>
+              <span>48h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">48h</span>
+          </div>
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 3</span>
+            <div class="curriculum__text">
+              <strong>Elaborar projetos de aplicações para web</strong>
+              <span>36h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">36h</span>
+          </div>
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 4</span>
+            <div class="curriculum__text">
+              <strong>Desenvolver aplicações para websites</strong>
+              <span>36h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">36h</span>
+          </div>
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 5</span>
+            <div class="curriculum__text">
+              <strong>Codificar Front-End de aplicações web</strong>
+              <span>48h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">48h</span>
+          </div>
+          <div class="curriculum__row">
+            <span class="curriculum__index">UC 6</span>
+            <div class="curriculum__text">
+              <strong>Publicar aplicações web</strong>
+              <span>36h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">36h</span>
+          </div>
+          <div class="curriculum__row curriculum__row--last">
+            <span class="curriculum__index">UC 7</span>
+            <div class="curriculum__text">
+              <strong>Projeto Integrador Desenvolvedor front-end</strong>
+              <span>24h • SEG A SEX</span>
+            </div>
+            <span class="curriculum__hours">24h</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="estudantes">
+      <div class="container">
+        <p class="section__eyebrow">06 / quem estuda?</p>
+        <h2 class="section__title">Estudantes</h2>
+
+        <div class="students-slider" aria-label="Slider de estudantes">
+          <button
+            class="students-slider__button students-slider__button--prev"
+            type="button"
+            aria-label="Anterior"
+          >
+            ←
+          </button>
+
+          <div class="students-slider__viewport">
+            <div class="students-slider__track" id="studentSliderTrack"></div>
+          </div>
+
+          <button
+            class="students-slider__button students-slider__button--next"
+            type="button"
+            aria-label="Próximo"
+          >
+            →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contato">
+      <div class="container footer__row">
+        <span class="logo__tm">Tm 140</span>
+        <p>Portfólio da Turma 140 · Desenvolvimento Front-end Web · Senac</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
