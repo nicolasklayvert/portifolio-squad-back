@@ -5,19 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Turma 140 · Transforme-se</title>
-
-    <!-- Fontes: Space Grotesk (títulos), Inter (texto corrido), JetBrains Mono (labels/código) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="src/styles/style.css" />
   </head>
   <body>
-    <!-- ===== HEADER / NAV ===== -->
     <header class="header">
       <div class="container header__row">
         <a href="#topo" class="logo"
@@ -49,10 +38,7 @@
           <h1 class="hero__title">turma</h1>
           <p class="hero__number">140</p>
 
-          <p class="hero__desc">
-            Eu não sei oque escrever, mas você do html tem que se virar pra
-            pensar em algo kkkkkkkkkkkk. A vida é assim irmão, fazer oque né?
-          </p>
+          <p class="hero__desc">A melhor turma do Senac de TODOS os TEMPOS.</p>
 
           <div class="hero__actions">
             <a href="#estudantes" class="btn btn--gradient">Ver estudantes</a>
@@ -65,19 +51,19 @@
             <div
               class="photo-grid__item photo-grid__item--wide"
               style="
-                background-image: url(&quot;https://placehold.co/720x320/1a1625/6b6480?text=Foto+da+turma&quot;);
+                background-image: url(&quot;img/foto-geral-lindo.jpg&quot;);
               "
             ></div>
             <div
               class="photo-grid__item"
               style="
-                background-image: url(&quot;https://placehold.co/340x260/1a1625/6b6480?text=Foto+1&quot;);
+                background-image: url(&quot;img/foto-geral-palco.jpg&quot;);
               "
             ></div>
             <div
               class="photo-grid__item"
               style="
-                background-image: url(&quot;https://placehold.co/340x260/1a1625/6b6480?text=Foto+2&quot;);
+                background-image: url(&quot;img/foto-geral-recebimento.jpg&quot;);
               "
             ></div>
           </div>
@@ -109,17 +95,14 @@
           <h2 class="section__title">A equipe back-end</h2>
 
           <p class="section__text">
-            Olha aqui a gente fala sobre nossa equipe, fala sobre a turma e fala
-            também sobre o transforme-se, não tenho ideia do que escrever agora
-            kkkkkkkkkkkk.
+            A equipe de back-end cuida da estrutura que faz a aplicação
+            funcionar: cria APIs, organiza regras de negócio, conecta com bancos
+            de dados e garante que tudo rode de forma segura e eficiente.
           </p>
           <p class="section__text">
-            Este portfólio reúne a Turma 140: quem somos, o que estudamos e o
-            que já construímos. É a prova de que aprender a programar pode ser
-            leve, coletivo e cheio de gente boa.
-          </p>
-          <p class="section__text">
-            Vou adicionar mais coisas pra ficar do tamanho do card kkkkkkkkkkkk
+            No nosso grupo, aprendemos a transformar ideias em soluções reais,
+            trabalhando com lógica, integração e performance para entregar
+            experiências completas para o usuário.
           </p>
         </div>
 
@@ -177,12 +160,8 @@
           <article class="teacher-card">
             <div
               class="teacher-card__avatar"
-              style="
-                background-image: linear-gradient(135deg, #c760e0, #5b7cf0);
-              "
-            >
-              EC
-            </div>
+              style="background-image: url(&quot;img/carrasco-icon.jpg&quot;)"
+            ></div>
             <div class="teacher-card__body">
               <h3 class="teacher-card__name">Erick Carrasco</h3>
               <p class="teacher-card__role">
@@ -251,85 +230,95 @@
         <h2 class="section__title">O que a turma estuda</h2>
 
         <div class="curriculum">
-          <!-- TODO: preencher com o nome e a carga horária real de cada UC -->
           <div class="curriculum__row">
-            <span class="curriculum__index">01</span>
+            <span class="curriculum__index">UC 1</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong
+                >Operar sistemas operacionais e aplicativos de
+                escritório</strong
+              >
+              <span>36h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">36h</span>
           </div>
           <div class="curriculum__row">
-            <span class="curriculum__index">02</span>
+            <span class="curriculum__index">UC 2</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Desenvolver sistemas de informação</strong>
+              <span>48h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">48h</span>
           </div>
           <div class="curriculum__row">
-            <span class="curriculum__index">03</span>
+            <span class="curriculum__index">UC 3</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Elaborar projetos de aplicações para web</strong>
+              <span>36h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">36h</span>
           </div>
           <div class="curriculum__row">
-            <span class="curriculum__index">04</span>
+            <span class="curriculum__index">UC 4</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Desenvolver aplicações para websites</strong>
+              <span>36h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">36h</span>
           </div>
           <div class="curriculum__row">
-            <span class="curriculum__index">05</span>
+            <span class="curriculum__index">UC 5</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Codificar Front-End de aplicações web</strong>
+              <span>48h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">48h</span>
           </div>
           <div class="curriculum__row">
-            <span class="curriculum__index">06</span>
+            <span class="curriculum__index">UC 6</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Publicar aplicações web</strong>
+              <span>36h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
-          </div>
-          <div class="curriculum__row">
-            <span class="curriculum__index">07</span>
-            <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
-            </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">36h</span>
           </div>
           <div class="curriculum__row curriculum__row--last">
-            <span class="curriculum__index">08</span>
+            <span class="curriculum__index">UC 7</span>
             <div class="curriculum__text">
-              <strong>Nome da UC</strong>
-              <span>Descrição da uc</span>
+              <strong>Projeto Integrador Desenvolvedor front-end</strong>
+              <span>24h • SEG A SEX</span>
             </div>
-            <span class="curriculum__hours">00h</span>
+            <span class="curriculum__hours">24h</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== ESTUDANTES (âncora do menu, sem mock ainda) ===== -->
     <section class="section" id="estudantes">
       <div class="container">
         <p class="section__eyebrow">06 / quem estuda?</p>
         <h2 class="section__title">Estudantes</h2>
-        <p class="section__text">
-          Seção reservada para os cards dos(as) 35 alunos(as) da turma — ainda
-          não veio o mock dessa parte, é só adicionar os cards aqui dentro
-          depois.
-        </p>
+
+        <div class="students-slider" aria-label="Slider de estudantes">
+          <button
+            class="students-slider__button students-slider__button--prev"
+            type="button"
+            aria-label="Anterior"
+          >
+            ←
+          </button>
+
+          <div class="students-slider__viewport">
+            <div class="students-slider__track" id="studentSliderTrack"></div>
+          </div>
+
+          <button
+            class="students-slider__button students-slider__button--next"
+            type="button"
+            aria-label="Próximo"
+          >
+            →
+          </button>
+        </div>
       </div>
     </section>
 
@@ -339,5 +328,7 @@
         <p>Portfólio da Turma 140 · Desenvolvimento Front-end Web · Senac</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
