@@ -1,11 +1,10 @@
 const students = [
-  { name: "Santana", href: "santana.html", className: "student-card--pink" },
-  { name: "Pedro", href: "pedro.html", className: "student-card--purple" },
-  { name: "Calebe", href: "calebe.html", className: "student-card--blue" },
-  { name: "Lucas", href: "lucas.html", className: "student-card--cyan" },
-  { name: "Matheus", href: "matheus.html", className: "student-card--gold" },
-  { name: "Nicolas", href: "nicolas.html", className: "student-card--red" },
-  { name: "Thiago", href: "thiago.html", className: "student-card--green" },
+  { name: "Santana", href: "port/santana.html", className: "student-card--pink" },
+  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple" },
+  { name: "Calebe", href: "port/calebe.html", className: "student-card--blue" },
+  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold" },
+  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red" },
+  { name: "Thiago", href: "port/thiago.html", className: "student-card--green" },
 ];
 
 const track = document.getElementById("studentSliderTrack");
