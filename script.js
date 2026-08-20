@@ -1,12 +1,12 @@
 const students = [
-  { name: "Santana", href: "port/santana.html", className: "student-card--pink" },
-  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple" },
-  { name: "Pedro", href: "port/pedro.html", className: "student-card--cyan" },
-  { name: "Calebe", href: "port/calebe.html", className: "student-card--blue" },
-  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple" },
-  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold" },
-  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red" },
-  { name: "Thiago", href: "port/thiago.html", className: "student-card--green" },
+  { name: "Santana", href: "port/santana.html", className: "student-card--pink", image: "img/santana.jpeg" },
+  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple", image: "https://place.dog/300/300" },
+  { name: "Pedro", href: "port/pedro.html", className: "student-card--cyan", image: "img/pedro.jpeg" },
+  { name: "Calebe", href: "port/calebe.html", className: "student-card--blue", image: "img/calebe.jpeg" },
+  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple", image: "https://place.dog/300/300" },
+  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold", image: "https://place.dog/300/300" },
+  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red", image: "https://place.dog/300/300" },
+  { name: "Thiago", href: "port/thiago.html", className: "student-card--green", image: "img/thiago.jpeg" },
 ];
 
 const track = document.getElementById("studentSliderTrack");
@@ -22,6 +22,11 @@ if (track) {
     card.href = student.href;
     card.className = `student-card ${student.className}`;
     card.innerHTML = `
+      <img
+        class="student-card__image"
+        src="${student.image}"
+        alt="Foto do ${student.name}"
+      />
       <span class="student-card__label">Aluno</span>
       <span class="student-card__name">${student.name}</span>
     `;
