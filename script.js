@@ -1,11 +1,11 @@
 const students = [
-  { name: "Santana", href: "port/santana.html", className: "student-card--pink", image: "img/santana.jpeg" },
-  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple", image: "https://place.dog/300/300" },
+  { name: "Santana", href: "port/santana.html", className: "student-card--pink", image: "img/matheus02.jpg" },
+  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple", image: "img/cadu.jpg" },
   { name: "Pedro", href: "port/pedro.html", className: "student-card--cyan", image: "img/pedro.jpeg" },
   { name: "Calebe", href: "port/calebe.html", className: "student-card--blue", image: "img/calebe.jpeg" },
-  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple", image: "https://place.dog/300/300" },
-  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold", image: "https://place.dog/300/300" },
-  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red", image: "https://place.dog/300/300" },
+  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple", image: "img/lucas.jpg" },
+  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold", image: "img/matheus01.jpg" },
+  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red", image: "img/nicolas.jpg" },
   { name: "Thiago", href: "port/thiago.html", className: "student-card--green", image: "img/thiago.jpeg" },
 ];
 
