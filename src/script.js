@@ -1,11 +1,11 @@
 const students = [
-  { name: "Santana", href: "santana.html", className: "student-card--pink" },
-  { name: "Pedro", href: "pedro.html", className: "student-card--purple" },
-  { name: "Calebe", href: "calebe.html", className: "student-card--blue" },
-  { name: "Lucas", href: "lucas.html", className: "student-card--cyan" },
-  { name: "Matheus", href: "matheus.html", className: "student-card--gold" },
-  { name: "Nicolas", href: "nicolas.html", className: "student-card--red" },
-  { name: "Thiago", href: "thiago.html", className: "student-card--green" },
+  { name: "Santana", href: "../src/port/santana.html", className: "student-card--pink", image: "../src/img/santana.jpeg" },
+  { name: "Pedro", href: "../src/port/pedro.html", className: "student-card--purple", image: "../src/img/pedro.jpeg" },
+  { name: "Calebe", href: "../src/port/calebe.html", className: "student-card--blue", image: "../src/img/calebe.jpeg"},
+  { name: "Lucas", href: "../src/port/lucas.html", className: "student-card--cyan" },
+  { name: "Matheus", href: "../src/port/matheus.html", className: "student-card--gold" },
+  { name: "Nicolas", href: "../src/port/nicolas.html", className: "student-card--red" },
+  { name: "Thiago", href: "../src/port/thiago.html", className: "student-card--green", image: "../src/img/thiago.jpeg" },
 ];
 
 const track = document.getElementById("studentSliderTrack");
@@ -17,10 +17,16 @@ let currentIndex = students.length;
 
 if (track) {
   infiniteStudents.forEach((student) => {
+    console.log(student.image)
     const card = document.createElement("a");
     card.href = student.href;
     card.className = `student-card ${student.className}`;
     card.innerHTML = `
+      <img
+        class="student-card__image"
+        src="${student.image}"
+        alt="Foto do ${student.name}"
+      />
       <span class="student-card__label">Aluno</span>
       <span class="student-card__name">${student.name}</span>
     `;
