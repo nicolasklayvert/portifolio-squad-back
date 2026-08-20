@@ -1,7 +1,9 @@
 const students = [
   { name: "Santana", href: "port/santana.html", className: "student-card--pink" },
   { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple" },
+  { name: "Pedro", href: "port/pedro.html", className: "student-card--cyan" },
   { name: "Calebe", href: "port/calebe.html", className: "student-card--blue" },
+  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple" },
   { name: "Matheus", href: "port/matheus.html", className: "student-card--gold" },
   { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red" },
   { name: "Thiago", href: "port/thiago.html", className: "student-card--green" },
