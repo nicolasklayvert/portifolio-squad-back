@@ -18,9 +18,8 @@ let currentIndex = students.length;
 
 if (track) {
   infiniteStudents.forEach((student) => {
-    const card = document.createElement("div");
+    const card = document.createElement("article");
     card.className = "student-card";
-    card.setAttribute("aria-label", `Foto do ${student.name}`);
     card.innerHTML = `
       <img
         class="student-card__image"
