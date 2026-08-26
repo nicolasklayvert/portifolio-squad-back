@@ -16,13 +16,20 @@ Esta landing page apresenta a Turma 140 e o portfólio do Squad Back-End bolado.
 
 ### Squad Back-End bolado
 
-Os integrantes são apresentados na página principal por meio de cards com
-suas respectivas fotos. Os cards são apenas visuais e não possuem links para
-páginas individuais.
+Os integrantes são identificados:
+
+- Calebe
+- Eduardo
+- Lucas
+- Matheus
+- Nicolas
+- Pedro
+- Santana
+- Thiago
 
 ## Tecnologias utilizadas
 
-- **HTML5:** estrutura semântica da landing page.
+- **HTML5:** estrutura semântica e páginas individuais dos integrantes.
 - **CSS3:** layout responsivo, metodologia BEM e variáveis CSS para padronização visual.
 - **Vanilla JavaScript:** interações da página sem dependências de frameworks.
 
@@ -30,7 +37,7 @@ páginas individuais.
 
 - Apresentação da Turma 140 e do Programa Transforme-se.
 - Navegação por seções da landing page.
-- Cards visuais com fotos dos integrantes.
+- Cards e páginas de apresentação dos integrantes.
 - Área de projetos e galeria de imagens.
 - Layout adaptado para diferentes tamanhos de tela.
 
