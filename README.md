@@ -81,7 +81,6 @@ Também é possível abrir o arquivo `index.html` diretamente no navegador. Entr
 ```text
 .
 ├── index.html       # Página principal
-├── port/            # Páginas dos integrantes
 ├── styles/          # Folhas de estilo
 ├── script.js        # Interações em JavaScript
 └── img/             # Imagens utilizadas no projeto

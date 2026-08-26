@@ -1,12 +1,12 @@
 const students = [
-  { name: "Santana", href: "port/santana.html", className: "student-card--pink", image: "img/matheus02.jpg" },
-  { name: "Eduardo", href: "port/eduardo.html", className: "student-card--purple", image: "img/cadu.jpg" },
-  { name: "Pedro", href: "port/pedro.html", className: "student-card--cyan", image: "img/pedro.jpeg" },
-  { name: "Calebe", href: "port/calebe.html", className: "student-card--blue", image: "img/calebe.jpeg" },
-  { name: "Lucas", href: "port/lucas.html", className: "student-card--purple", image: "img/lucas.jpg" },
-  { name: "Matheus", href: "port/matheus.html", className: "student-card--gold", image: "img/matheus01.jpg" },
-  { name: "Nicolas", href: "port/nicolas.html", className: "student-card--red", image: "img/nicolas.jpg" },
-  { name: "Thiago", href: "port/thiago.html", className: "student-card--green", image: "img/thiago.jpeg" },
+  { name: "Santana", image: "img/matheus02.jpg" },
+  { name: "Eduardo", image: "img/cadu.jpg" },
+  { name: "Pedro", image: "img/pedro.jpeg" },
+  { name: "Calebe", image: "img/calebe.jpeg" },
+  { name: "Lucas", image: "img/lucas.jpg" },
+  { name: "Matheus", image: "img/matheus01.jpg" },
+  { name: "Nicolas", image: "img/nicolas.jpg" },
+  { name: "Thiago", image: "img/thiago.jpeg" },
 ];
 
 const track = document.getElementById("studentSliderTrack");
@@ -18,17 +18,15 @@ let currentIndex = students.length;
 
 if (track) {
   infiniteStudents.forEach((student) => {
-    const card = document.createElement("a");
-    card.href = student.href;
-    card.className = `student-card ${student.className}`;
+    const card = document.createElement("div");
+    card.className = "student-card";
+    card.setAttribute("aria-label", `Foto do ${student.name}`);
     card.innerHTML = `
       <img
         class="student-card__image"
         src="${student.image}"
         alt="Foto do ${student.name}"
       />
-      <span class="student-card__label">Aluno</span>
-      <span class="student-card__name">${student.name}</span>
     `;
     track.appendChild(card);
   });
